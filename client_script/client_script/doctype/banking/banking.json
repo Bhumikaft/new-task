@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{##}",
+ "creation": "2024-03-28 10:57:40.670031",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customers_details_section",
+  "first_name",
+  "last_name",
+  "full_name",
+  "check_box"
+ ],
+ "fields": [
+  {
+   "fieldname": "customers_details_section",
+   "fieldtype": "Section Break",
+   "label": "customer's Details"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "first name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "last name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "full name"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_box",
+   "fieldtype": "Check",
+   "label": "check box"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-28 12:02:56.014191",
+ "modified_by": "Administrator",
+ "module": "Client Script",
+ "name": "banking",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
